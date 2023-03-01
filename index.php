@@ -12,7 +12,7 @@
 		
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<!-- <div class="col-md-4">
 					<div class="card mt-4">
 						<div class="card-header">Pie Chart</div>
 						<div class="card-body">
@@ -21,7 +21,7 @@
 							</div>
 						</div>
 					</div>
-				</div> 
+				</div>  -->
 				<!-- <div class="col-md-4">
 					<div class="card mt-4">
 						<div class="card-header">Doughnut Chart</div>
@@ -126,19 +126,19 @@ $(document).ready(function(){
 					}
 				};
 
-				var group_chart1 = $('#pie_chart');
+				// var group_chart1 = $('#pie_chart');
 
-				var graph1 = new Chart(group_chart1, {
-					type:"pie",
-					data:chart_data
-				});
+				// var graph1 = new Chart(group_chart1, {
+				// 	type:"pie",
+				// 	data:chart_data
+				// });
 
-				var group_chart2 = $('#doughnut_chart');
+				// var group_chart2 = $('#doughnut_chart');
 
-				var graph2 = new Chart(group_chart2, {
-					type:"doughnut",
-					data:chart_data
-				});
+				// var graph2 = new Chart(group_chart2, {
+				// 	type:"doughnut",
+				// 	data:chart_data
+				// });
 
 				var group_chart3 = $('#bar_chart');
 
